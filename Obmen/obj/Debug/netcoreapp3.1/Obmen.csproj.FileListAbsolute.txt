@@ -1,0 +1,13 @@
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.AssemblyInfoInputs.cache
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.AssemblyInfo.cs
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.exe
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.deps.json
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.runtimeconfig.json
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.runtimeconfig.dev.json
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.dll
+C:\Users\Владимир\source\repos\Obmen\bin\Debug\netcoreapp3.1\Obmen.pdb
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.dll
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.pdb
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.genruntimeconfig.cache
+C:\Users\Владимир\source\repos\Obmen\obj\Debug\netcoreapp3.1\Obmen.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.exe
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.deps.json
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.runtimeconfig.json
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.runtimeconfig.dev.json
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.dll
+C:\Users\Владимир\source\repos\OboMne\bin\Debug\netcoreapp3.1\OboMne.pdb
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.csprojAssemblyReference.cache
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.AssemblyInfoInputs.cache
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.AssemblyInfo.cs
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.dll
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.pdb
+C:\Users\Владимир\source\repos\OboMne\obj\Debug\netcoreapp3.1\OboMne.genruntimeconfig.cache

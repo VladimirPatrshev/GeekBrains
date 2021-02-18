@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMT", "IMT.csproj", "{CABF2562-0A3D-4C80-AA88-6FC5860736A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABF2562-0A3D-4C80-AA88-6FC5860736A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABF2562-0A3D-4C80-AA88-6FC5860736A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABF2562-0A3D-4C80-AA88-6FC5860736A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABF2562-0A3D-4C80-AA88-6FC5860736A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C09394-883A-4683-8408-6BBFB77B0FBB}
+	EndGlobalSection
+EndGlobal

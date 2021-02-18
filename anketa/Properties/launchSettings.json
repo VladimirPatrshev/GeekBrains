@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "anketa": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

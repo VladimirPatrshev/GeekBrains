@@ -1,0 +1,13 @@
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.exe
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.deps.json
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.runtimeconfig.json
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.runtimeconfig.dev.json
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.dll
+C:\Users\Владимир\source\repos\anketa\bin\Debug\netcoreapp3.1\anketa.pdb
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.csprojAssemblyReference.cache
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.AssemblyInfoInputs.cache
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.AssemblyInfo.cs
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.dll
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.pdb
+C:\Users\Владимир\source\repos\anketa\obj\Debug\netcoreapp3.1\anketa.genruntimeconfig.cache
