@@ -1,0 +1,13 @@
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.exe
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.deps.json
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.runtimeconfig.json
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.runtimeconfig.dev.json
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.dll
+C:\Users\Владимир\source\repos\Rasstoyanie\bin\Debug\netcoreapp3.1\Rasstoyanie.pdb
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.csprojAssemblyReference.cache
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.AssemblyInfoInputs.cache
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.AssemblyInfo.cs
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.dll
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.pdb
+C:\Users\Владимир\source\repos\Rasstoyanie\obj\Debug\netcoreapp3.1\Rasstoyanie.genruntimeconfig.cache
