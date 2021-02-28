@@ -214,13 +214,14 @@ namespace Lesson3
                             "Выбрасывать исключение ArgumentException('Знаменатель не может быть равен 0');\n" +
                             "***Добавить упрощение дробей.\n " +
                             "Патрушев\n");
-                        Console.WriteLine("Для выбора решения условий задачи введите:\n 1 - *Описать класс дробей — рациональных чисел, являющихся отношением двух целых чисел.\n" +
-                            " 2 - Предусмотреть методы сложения, вычитания, умножения и деления дробей.\n" +
-                           // " * Добавить свойства типа int для доступа к числителю и знаменателю\n" уже реализовано
-                            //" 3 - * Добавить свойство типа double только на чтение, чтобы получить десятичную дробь числа\n" убрали из дз, но как сделать все равно не понял
-                            " 4 - ** Добавить проверку, чтобы знаменатель не равнялся 0\n" +
-                            "     Выбрасывать исключение ArgumentException('Знаменатель не может быть равен 0')\n" +
-                            " 5 - ***Добавить упрощение дробей.\n");
+
+                        Console.WriteLine("Для выбора решения условий задачи введите:\n ");
+                        Console.WriteLine("1 - *Описать класс дробей — рациональных чисел, являющихся отношением двух целых чисел.");
+                        Console.WriteLine("2 - Предусмотреть методы сложения, вычитания, умножения и деления дробей.");
+                        Console.WriteLine("3 - * Добавить свойство типа double только на чтение, чтобы получить десятичную дробь числа");
+                        Console.WriteLine("4 - ** Добавить проверку, чтобы знаменатель не равнялся 0");
+                        Console.WriteLine("Выбрасывать исключение ArgumentException('Знаменатель не может быть равен 0')");
+                        Console.WriteLine("5 - ***Добавить упрощение дробей.");
                         int Text = int.Parse(Console.ReadLine());
 
                         switch (Text)
@@ -278,38 +279,38 @@ namespace Lesson3
                                 break;
 
                             case 3:
-                                //Console.WriteLine("Введите числитель первой дроби");
-                                //int numerator4 = int.Parse(Console.ReadLine());
-                                //Console.WriteLine("Введите знаменатель первой дроби");
-                                //int denominator4 = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Введите числитель первой дроби");
+                                int numerator4 = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Введите знаменатель первой дроби");
+                                int denominator4 = int.Parse(Console.ReadLine());
 
-                                //Fraction fraction4;
-                                //fraction4.m = numerator4;
-                                //fraction4.n = denominator4;
-                                //Console.WriteLine($"Первая дробь {fraction4.ToString()}");
+                                Fraction fraction4;
+                                fraction4.m = numerator4;
+                                fraction4.n = denominator4;
+                                Console.WriteLine($"Первая дробь {fraction4.ToString()}");
 
 
-                                //Console.WriteLine("Введите числитель второй дроби");
-                                //int numerator5 = int.Parse(Console.ReadLine());
-                                //Console.WriteLine("Введите знаменатель второй дроби");
-                                //int denominator5 = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Введите числитель второй дроби");
+                                int numerator5 = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Введите знаменатель второй дроби");
+                                int denominator5 = int.Parse(Console.ReadLine());
 
-                                //Fraction fraction5;
-                                //fraction5.m = numerator5;
-                                //fraction5.n = denominator5;
-                                //Console.WriteLine($"Вторая дробь {fraction5.ToString()}");
+                                Fraction fraction5;
+                                fraction5.m = numerator5;
+                                fraction5.n = denominator5;
+                                Console.WriteLine($"Вторая дробь {fraction5.ToString()}");
 
-                                //Fraction result4 = fraction4.Plus(fraction5);
-                                //Console.WriteLine($"Результат сложения дробей = {result4}");
+                                Fraction result4 = fraction4.Plus(fraction5);
+                                Console.WriteLine($"Результат сложения дробей = {result4}");
 
-                                //Console.WriteLine($"Числитель равен {result4.m}");
-                                //int DecM =int.Parse( Console.ReadLine());
+                               
+                               double DecM =result4.m;
 
-                                //Console.WriteLine($"Знаменатель равен {result4.n}");
-                                //int DecN = int.Parse(Console.ReadLine());
+                               
+                               double DecN = result4.n;
 
-                                //double Dec = DecM / DecN;
-                                //Console.WriteLine($"{Dec}");
+                               double Dec = DecM / DecN;
+                               Console.WriteLine($"{Dec:0.00}");
 
                                // Fraction result5 = fraction4.Minus(fraction5);
                               //  Console.WriteLine($"Результат вычитания дробей = {result5.ToString()}");
@@ -351,19 +352,19 @@ namespace Lesson3
 
                             case 5:
                                 Console.WriteLine("Введите числитель неправильной дроби");
-                                int numerator4 = int.Parse(Console.ReadLine());
+                                int numerator7 = int.Parse(Console.ReadLine());
                                 Console.WriteLine("Введите знаменатель дроби");
-                                int denominator4 = int.Parse(Console.ReadLine());
+                                int denominator7 = int.Parse(Console.ReadLine());
 
-                                if (numerator4 > denominator4)
+                                if (numerator7 > denominator7)
                                 {
-                                    int whole = numerator4 / denominator4;
-                                    int numerator5 = numerator4 - denominator4;
+                                    int whole = numerator7 / denominator7;
+                                    int numerator8 = numerator7 - denominator7;
 
-                                    Fraction fraction4;
-                                    fraction4.m = numerator5;
-                                    fraction4.n = denominator4;
-                                    Console.WriteLine($"Правильная дробь {whole}+{fraction4.ToString()}");
+                                    Fraction fraction7;
+                                    fraction7.m = numerator8;
+                                    fraction7.n = denominator7;
+                                    Console.WriteLine($"Правильная дробь {whole}+{fraction7.ToString()}");
 
                                 }
                                     break;
