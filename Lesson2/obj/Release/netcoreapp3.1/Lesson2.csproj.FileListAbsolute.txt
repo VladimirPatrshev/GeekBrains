@@ -1,0 +1,13 @@
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.exe
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.deps.json
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.runtimeconfig.json
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.runtimeconfig.dev.json
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.dll
+E:\Repository\Lesson2\bin\Release\netcoreapp3.1\Lesson2.pdb
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.AssemblyInfoInputs.cache
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.AssemblyInfo.cs
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.csproj.CoreCompileInputs.cache
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.dll
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.pdb
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.genruntimeconfig.cache
+E:\Repository\Lesson2\obj\Release\netcoreapp3.1\Lesson2.csprojAssemblyReference.cache
