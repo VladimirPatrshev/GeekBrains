@@ -49,15 +49,15 @@ namespace Lesson4
                         {
                             case 1:
 
-                                int dig=0;
+                                int dig = 0;
                                 int sum0 = 0;
                                 int sum1 = 0;
                                 string[] login = new string[10];
                                 string[] pass = new string[10];
 
-                                Console.WriteLine("Введите логин");
+                                Console.WriteLine("Введите логин от 2 до 10 сиволов, пароль должен содержать цифру");
                                 login[0] = Console.ReadLine();
-                                Console.WriteLine("Введите пароль");
+                                Console.WriteLine("Введите пароль от 2 до 10 сиволов, пароль должен содержать цифру");
                                 pass[0] = Console.ReadLine();
 
                                 foreach (string s in pass)
@@ -69,35 +69,22 @@ namespace Lesson4
                                         sum0++;
                                     }
                                     else Console.WriteLine("Пароль должен содержать хотя бы одну цифру");
-                                } 
-                                                                   
-                                                                  
-                                
-                                if (sum0 > 0) Console.WriteLine("Пароль корректен");
-
-                                if (login.Length>2 && login.Length < 10)
-                                {
-                                    Console.WriteLine("Логин слишком короткий");
                                 }
-                                else
+                        
+                                foreach (string s in login)
                                 {
-                                    foreach (string s in login)
+                                    if (!(s.Length > 2 && s.Length < 10)) Console.WriteLine("Логин слишком короткий");
+                                    bool sucess = int.TryParse(s, out dig);
+                                    if (sucess)
                                     {
-                                        bool sucess = int.TryParse(s, out dig);
-                                        if (sucess)
-                                        {
-                                            sum1++;
-                                            if (sum1 > 0) Console.WriteLine("Логин корректен");
-                                        }
-                                        else Console.WriteLine("Логин должен содержать хотя бы одну цифру");
+                                        sum1++;
                                     }
-                                    break;
+                                    else Console.WriteLine("Логин должен содержать хотя бы одну цифру");
                                 }
 
-                                break;
                                 Console.ReadKey();
                                 Console.Clear();
-
+                                break;
 
                             case 2:
 
