@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Text.RegularExpressions;
+using System.Collections;
 
 namespace Lesson4
 {
@@ -49,37 +51,31 @@ namespace Lesson4
                         {
                             case 1:
 
-                                int dig = 0;
-                                int sum0 = 0;
-                                int sum1 = 0;
-                                string[] login = new string[10];
-                                string[] pass = new string[10];
+                                ArrayList pass1 = new ArrayList();
 
-                                Console.WriteLine("Введите логин от 2 до 10 сиволов, пароль должен содержать цифру");
-                                login[0] = Console.ReadLine();
-                                Console.WriteLine("Введите пароль от 2 до 10 сиволов, пароль должен содержать цифру");
-                                pass[0] = Console.ReadLine();
-
-                                foreach (string s in pass)
+                                Console.WriteLine("Введите логин");
+                                string pass = Console.ReadLine();
+                                
+                                if (!(pass.Length>=2 && pass.Length <= 10))
                                 {
-                                    if (!(s.Length > 2 && s.Length < 10)) Console.WriteLine("Пароль слишком короткий");
-                                    bool sucess = int.TryParse(s, out dig);
-                                    if (sucess)
-                                    {
-                                        sum0++;
-                                    }
-                                    else Console.WriteLine("Пароль должен содержать хотя бы одну цифру");
+                                    Console.WriteLine("Логин слишком короткий");
                                 }
-                        
-                                foreach (string s in login)
+                                else
                                 {
-                                    if (!(s.Length > 2 && s.Length < 10)) Console.WriteLine("Логин слишком короткий");
-                                    bool sucess = int.TryParse(s, out dig);
-                                    if (sucess)
+                                    pass1.Add(pass);
+
+                                    foreach (string s in pass1)
                                     {
-                                        sum1++;
+                                        for (int i =0; i>9; i++)
+                                            if (s.Contains(Convert.ToString(i)))
+                                            {
+                                                Console.WriteLine("Логин хороший");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Логин плохой");
+                                            }
                                     }
-                                    else Console.WriteLine("Логин должен содержать хотя бы одну цифру");
                                 }
 
                                 Console.ReadKey();
@@ -87,6 +83,34 @@ namespace Lesson4
                                 break;
 
                             case 2:
+                                
+                                ArrayList pass2 = new ArrayList();
+                                Regex regex = new Regex("[0-9]");
+
+                                Console.WriteLine("Введите логин");
+                                string pass3 = Console.ReadLine();
+
+                                if (!(pass3.Length>=2 && pass3.Length <= 10))
+                                {
+                                    Console.WriteLine("Логин слишком короткий");
+                                }
+                                else
+                                { 
+                                    pass2.Add(pass3);
+
+                                    foreach (string s in pass2)
+                                    {
+                                        if (regex.IsMatch(s) )
+                                        {
+                                            Console.WriteLine("Пароль хороший");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Пароль плохой");
+                                        }
+                                    }
+                                } 
+
 
                                 break;
 
