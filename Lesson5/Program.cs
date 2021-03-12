@@ -11,8 +11,11 @@ namespace Lesson4
 {
     class Program
     {
-
-
+        public static int Permutation(string s, string s2)
+        {
+            return s.CompareTo(s2);
+        }
+        
         static void Main()
         {
             while (true)
@@ -143,8 +146,21 @@ namespace Lesson4
                 switch (punkt2)
                 {
                     case 1:
+                                
+                        Console.WriteLine("Введите строку: ");
+                        StringBuilder stroke = new StringBuilder(Console.ReadLine());
 
-                        break;
+                        Console.WriteLine("Введите количество букв слова для вывода");
+                        int y = int.Parse(Console.ReadLine());
+
+                        Console.WriteLine($"Исходная строка: {stroke}");
+
+
+                                Console.WriteLine($"{stroke.Length}");
+                                
+
+
+                                break;
                     case 2:
 
                         break;
@@ -166,16 +182,30 @@ namespace Lesson4
 
                     #region Task 3
                     case 3:
-
+                        
                         Console.WriteLine("*Для двух строк написать метод, определяющий, является ли одна строка перестановкой другой." +
                             "Например: badc являются перестановкой abcd. " +
                             "Патрушев\n");
 
+                        
+                        Console.WriteLine("Введите слово для проверки");
+                        string Example = Console.ReadLine();
+                        Console.WriteLine("Введите с каким словом Вы хотите сравнить");
+                        string Probe = Console.ReadLine();
 
 
+                        if (Permutation(Example,Probe) > 0) Console.WriteLine("Второе слово это перестановка букв первого слова");
+                        
+                        if (Permutation(Example, Probe) < 0) Console.WriteLine("Слова разные");
+                        
+                        if (Permutation(Example, Probe) == 0) Console.WriteLine("Слова одинаковые");
 
-                #endregion
-                break;
+
+                        Console.ReadKey();
+                        Console.Clear();
+
+                        #endregion
+                        break;
 
                     case 4:
                         #region Task4
@@ -189,31 +219,16 @@ namespace Lesson4
                             "Если среди остальных есть ученики, набравшие тот же средний балл, что и один из трёх худших, следует вывести и их фамилии и имена.\n" +
                             "Патрушев\n");
 
-                Console.WriteLine("Для вариант а) введите 1\n");
-                Console.WriteLine("Для вариант б) введите 2\n");
-                int punkt3 = int.Parse(Console.ReadLine());
-
-                switch (punkt3)
-                {
-                    case 1:
-
-
-                        Console.ReadKey();
-                        Console.Clear();
-                        break;
-
-                    case 2:
-
+                
 
                         Console.ReadKey();
                         Console.Clear();
 
                         break;
-
-                }
-                Console.ReadKey();
-                Console.Clear();
-                break;
+                        #endregion
+                
+                        
+                         break;
                     
                     case 5:
                         #region Task 5
@@ -230,17 +245,42 @@ namespace Lesson4
 
 
                 break;
-                #endregion
+                    #endregion
 
-             
+                    case 6:
+                        #region Task 1.0
+                        for (int i=0; i<2; i++)
+                        {
+                            Console.WriteLine("Введите логин");
+                            string pass = Console.ReadLine();
+                            if (!(pass.Length>=2 && pass.Length <= 10))
+                            {
+                                Console.WriteLine("Логтн слишком короткий");
+                            }
+                            else
+                            {
+                                for (int b=0; b > 9; b++)
+                                {
+                                    if (pass.Contains(Convert.ToString(b)))
+                                    {
+                                        Console.WriteLine("Логин хороший");
+                                    }
+                                    else Console.WriteLine("Логин плохой");
+                                }
+                            }
+                        }
+                        Console.ReadKey();
+                        Console.Clear();
+                        #endregion;
+                        break;
+
                     default:
                         Console.WriteLine("Задача не найдена");
                         break;
             
-                        #endregion
+                        
 
-                        Console.ReadKey();
-                        Console.Clear();
+                        
                 }
             }
         }
