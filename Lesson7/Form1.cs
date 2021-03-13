@@ -16,7 +16,7 @@ namespace Lesson7
         public static int Rnd()
         {
             Random rnd = new Random();
-            int x = rnd.Next(0, 10);
+            int x = rnd.Next(0, 100);
             return x;
         }
         public int x = Rnd();
