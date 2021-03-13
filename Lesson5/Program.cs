@@ -255,7 +255,7 @@ namespace Lesson4
                             string pass = Console.ReadLine();
                             if (!(pass.Length>=2 && pass.Length <= 10))
                             {
-                                Console.WriteLine("Логтн слишком короткий");
+                                Console.WriteLine("Логин слишком короткий");
                             }
                             else
                             {
