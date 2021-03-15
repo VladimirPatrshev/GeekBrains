@@ -1,0 +1,12 @@
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\bin\Debug\SApp02.exe.config
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\bin\Debug\SApp02.exe
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\bin\Debug\SApp02.pdb
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.csprojAssemblyReference.cache
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.Properties.Resources.resources
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.csproj.GenerateResource.cache
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.csproj.CoreCompileInputs.cache
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.exe
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.pdb
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.Form1.resources
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.CounterUserControl.resources
+C:\sources\geekbrains\Основы языка C#\sandbox\Lesson7\SApp02\obj\Debug\SApp02.DialogForm.resources

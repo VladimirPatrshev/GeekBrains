@@ -1,0 +1,12 @@
+E:\Repository\Lesson7\obj\Debug\Lesson7.csprojAssemblyReference.cache
+E:\Repository\Lesson7\obj\Debug\Lesson7.Form1.resources
+E:\Repository\Lesson7\obj\Debug\Lesson7.Properties.Resources.resources
+E:\Repository\Lesson7\obj\Debug\Lesson7.csproj.GenerateResource.cache
+E:\Repository\Lesson7\obj\Debug\Lesson7.csproj.CoreCompileInputs.cache
+E:\Repository\Lesson7\bin\Debug\Lesson7.exe.config
+E:\Repository\Lesson7\bin\Debug\Lesson7.exe
+E:\Repository\Lesson7\bin\Debug\Lesson7.pdb
+E:\Repository\Lesson7\obj\Debug\Lesson7.exe
+E:\Repository\Lesson7\obj\Debug\Lesson7.pdb
+E:\Repository\Lesson7\obj\Debug\Lesson7.Form2.resources
+E:\Repository\Lesson7\obj\Debug\Lesson7.Form3.resources
