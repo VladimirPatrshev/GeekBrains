@@ -99,6 +99,7 @@ namespace Lesson7
             this.MaximumSize = new System.Drawing.Size(300, 200);
             this.MinimumSize = new System.Drawing.Size(300, 200);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Угадайка";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

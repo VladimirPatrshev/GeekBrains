@@ -38,17 +38,17 @@ namespace Lesson7
 
                 label2.Text = x.ToString();
                 Answer.Text = i.ToString();
-
+                
 
                 if (i > x)
                 {
                     label1.Text = "Ваше число больше";
-                    count++;
+                    count =count+1;
                 }
                 if (i < x)
                 {
                     label1.Text = "Ваше число меньше";
-                    count++;
+                    count = count + 1;
                 }
                 if (i == x)
                 {
@@ -64,7 +64,6 @@ namespace Lesson7
                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
-           
         }
         private void Answer_TextChanged(object sender, EventArgs e)
         {

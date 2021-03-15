@@ -8,3 +8,5 @@ E:\Repository\Lesson7\bin\Debug\Lesson7.exe
 E:\Repository\Lesson7\bin\Debug\Lesson7.pdb
 E:\Repository\Lesson7\obj\Debug\Lesson7.exe
 E:\Repository\Lesson7\obj\Debug\Lesson7.pdb
+E:\Repository\Lesson7\obj\Debug\Lesson7.Form2.resources
+E:\Repository\Lesson7\obj\Debug\Lesson7.Form3.resources
