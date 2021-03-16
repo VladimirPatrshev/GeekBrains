@@ -1,0 +1,16 @@
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.exe
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.deps.json
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.runtimeconfig.json
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.runtimeconfig.dev.json
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.dll
+E:\Repository\Lesson6\bin\Debug\net5.0\ref\Lesson6.dll
+E:\Repository\Lesson6\bin\Debug\net5.0\Lesson6.pdb
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.csprojAssemblyReference.cache
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.AssemblyInfoInputs.cache
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.AssemblyInfo.cs
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.csproj.CoreCompileInputs.cache
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.dll
+E:\Repository\Lesson6\obj\Debug\net5.0\ref\Lesson6.dll
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.pdb
+E:\Repository\Lesson6\obj\Debug\net5.0\Lesson6.genruntimeconfig.cache
